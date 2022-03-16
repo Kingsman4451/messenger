@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messenger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div class="messenger">
+      <div class="messenger__header">
+        <div class="messenger__left">
+          <p class="messenger__dot">•</p>
+          <p class="messenger__name">MARK ZUKERBERG</p>
+        </div>
+        <i class="fa-solid fa-xmark messenger__cross"></i>
+      </div>
+      <div class="messenger__main">
+        <div class="messenger__day">
+          <hr />
+          <p class="messenger__today">TODAY</p>
+          <hr />
+        </div>
+        <ul class="messenger__chat">
+          <li class="messenger__chat-item  blue">
+            <p class="messenger__time">10:53</p>
+            <p class="messenger__text-left">Hi,Mark! I made a new design for Messenger App.</p>
+          </li>
+          <li class="messenger__item-right green">
+            <p class="messenger__time right">10:57</p>
+            <p class="messenger__text-right">
+              Yo! Send ito my assistant and we'll review it during the year.
+            </p>
+        </li>
+        <li class="messenger__chat-item blue-2">
+            <p class="messenger__time">11:03</p>
+            <p class="messenger__text-left">But Mark...</p>
+        </li>
+        <li class="messenger__chat-item-right red">
+            <p class="messenger__text">You were blocked by the user.</p>
+        </li>
+      </ul>
+        <div class="messenger__message">
+            <hr>
+            <form action="https://echo.htmlacademy.ru" class="messenger__form" method="post">
+                <input class="messenger__text-sender" type="text" placeholder="Enter your message" name="message">
+                <button class="messenger__btn" type="submit">SEND</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
