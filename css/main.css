@@ -160,6 +160,7 @@ body {
 }
 
 .messenger__time {
+  display: inline-block;
   color: #ccc;
   margin-bottom: 8px;
 }
