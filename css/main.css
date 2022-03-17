@@ -153,6 +153,7 @@ body {
   color: #ccc;
   font-size: 14px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .messenger__chat {
