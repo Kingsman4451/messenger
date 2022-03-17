@@ -286,6 +286,7 @@ body {
   color: #4a72be;
   font-weight: 700;
   font-size: 18px;
+  text-transform: uppercase;
   background-color: transparent;
   border: none;
   cursor: pointer;
